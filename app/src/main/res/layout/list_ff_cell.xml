@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ffr_lst_ll"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:layout_marginLeft="@dimen/font_title"
+    android:orientation="horizontal"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="6"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/ffr_lst_txt_lidcode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="left"
+            android:padding="@dimen/font_small"
+            android:text="Cambro CLLT12"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_title" />
+
+
+        <TextView
+            android:id="@+id/ffr_lst_txt_description"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:gravity="left"
+            android:padding="@dimen/font_small"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_textview1" />
+
+
+        <TextView
+            android:id="@+id/ffr_lst_txt_stl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingLeft="@dimen/font_small"
+            android:text="@string/ff_txt_stl"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="@dimen/font_textview2" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ffr_lst_iv_lid"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:background="@drawable/edittext_outline"
+        android:padding="2dp"
+        android:src="@drawable/fitfactory_10cwc" />
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:src="@drawable/red_arrow" />
+
+</LinearLayout>

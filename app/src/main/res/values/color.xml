@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="blue">#0000ff</color>
+    <color name="black1">#111111</color>
+    <color name="light_gray">#f3f3f3</color>
+    <color name="light_gray1">#ececec</color>
+    <color name="blue_dark">#428bca</color>
+
+    <color name="color_twitte">#2daae1</color>
+    <color name="color_pinterest">#cb2027</color>
+    <color name="color_linkedin">#0173b2</color>
+    <color name="color_instagram">#517fa4</color>
+    <color name="color_google">#f63e28</color>
+    <color name="color_facebook">#3c5a9a</color>
+    <color name="color_youtube">#fe3432</color>
+
+    <color name="color_bk_thumbler">#b1b3b2</color>
+    <color name="color_bk_pans">#dc3c42</color>
+    <color name="color_bk_storage">#f7f1de</color>
+    <color name="color_bk_healthcare">#01a4db</color>
+
+    <color name="color_bk_tumbler_gray">#dddddd</color>
+    <color name="color_bk_tumbler_gray1">#eff0f0</color>
+
+    <color name="color_bk_ps_a">#dc3c42</color>
+    <color name="color_bk_ps_other">#01a4dc</color>
+
+</resources>

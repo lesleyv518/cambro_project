@@ -1,0 +1,387 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="7"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2.6"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/tpe_ll_item"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="8"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="0dp">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="7"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:layout_height="match_parent"
+                                android:scaleType="fitCenter"
+                                android:src="@drawable/tp_food_pan"/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="2"
+                                android:layout_height="match_parent"
+                                android:paddingTop="3dp"
+                                android:paddingLeft="@dimen/font_textview"
+                                android:text="@string/tp_txt_tfp"
+                                android:gravity="left|center"
+                                android:textSize="@dimen/_14sdp"
+                                android:fontFamily="sans-serif-condensed"
+                                android:textStyle="bold|italic"/>
+                        </LinearLayout>
+
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="match_parent"
+                            android:padding="@dimen/_11sdp"/>
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@android:color/darker_gray"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="0dp">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="7"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/tpp_iv_electric"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:layout_height="match_parent"
+                                android:scaleType="fitCenter"
+                                android:src="@drawable/tp_electric"
+                                android:padding="@dimen/_5sdp"/>
+
+                            <TextView
+                                android:id="@+id/tpp_txt_electric"
+                                android:layout_width="0dp"
+                                android:layout_weight="2"
+                                android:layout_height="match_parent"
+                                android:paddingTop="3dp"
+                                android:paddingLeft="@dimen/font_textview"
+                                android:text="@string/tp_txt_electric"
+                                android:gravity="left|center"
+                                android:textSize="@dimen/_14sdp"
+                                android:fontFamily="sans-serif-condensed"
+                                android:textStyle="bold|italic"/>
+                        </LinearLayout>
+
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="match_parent"
+                            android:padding="@dimen/_11sdp"/>
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@android:color/darker_gray"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.5"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/_5sdp"
+                    android:paddingBottom="@dimen/_5sdp"
+                    android:paddingLeft="@dimen/_40sdp"
+                    android:gravity="left|center"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/_24sdp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textStyle="bold|italic"
+                    android:text="I NEED TO\n TRANSPORT..."/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray"/>
+                <LinearLayout
+                    android:id="@+id/tpp_ll_single"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="6"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/tpp_iv_one"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="match_parent"
+                            android:scaleType="fitCenter"
+                            android:padding="@dimen/font_textview"
+                            android:src="@drawable/tp_single_pan"/>
+
+                        <TextView
+                            android:id="@+id/tpp_txt_one"
+                            android:layout_width="0dp"
+                            android:layout_weight="2"
+                            android:layout_height="match_parent"
+                            android:paddingTop="3dp"
+                            android:paddingLeft="@dimen/font_textview"
+                            android:text="@string/tp_txt_single_pan"
+                            android:gravity="left|center"
+                            android:textColor="@android:color/holo_red_dark"
+                            android:textSize="@dimen/_18sdp"
+                            android:fontFamily="sans-serif-condensed"
+                            android:textStyle="bold|italic"/>
+                    </LinearLayout>
+
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/tp_arrow_right"
+                        android:padding="@dimen/_11sdp"/>
+
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray"/>
+                <LinearLayout
+                    android:id="@+id/tpp_ll_multiple"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="6"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/tpp_iv_two"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="match_parent"
+                            android:scaleType="fitCenter"
+                            android:padding="@dimen/_3sdp"
+                            android:src="@drawable/tp_food_pan"/>
+
+                        <TextView
+                            android:id="@+id/tpp_txt_two"
+                            android:layout_width="0dp"
+                            android:layout_weight="2"
+                            android:layout_height="match_parent"
+                            android:paddingTop="3dp"
+                            android:paddingLeft="@dimen/font_textview"
+                            android:text="@string/tp_txt_multiple_pan"
+                            android:gravity="left|center"
+                            android:textColor="@android:color/holo_red_dark"
+                            android:textSize="@dimen/_18sdp"
+                            android:fontFamily="sans-serif-condensed"
+                            android:textStyle="bold|italic"/>
+
+                    </LinearLayout>
+
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/tp_arrow_right"
+                        android:padding="@dimen/_11sdp"/>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray"/>
+                <LinearLayout
+                    android:id="@+id/tpp_ll_ms_pan"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="6"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="match_parent"
+                            android:scaleType="fitCenter"
+                            android:padding="@dimen/_5sdp"
+                            android:src="@drawable/tp_sheet_pan"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="2"
+                            android:layout_height="match_parent"
+                            android:paddingTop="3dp"
+                            android:paddingLeft="@dimen/font_textview"
+                            android:text="@string/tp_txt_sheet_pan"
+                            android:gravity="left|center"
+                            android:textColor="@android:color/holo_red_dark"
+                            android:textSize="@dimen/_18sdp"
+                            android:fontFamily="sans-serif-condensed"
+                            android:textStyle="bold|italic"/>
+
+                    </LinearLayout>
+
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/tp_arrow_right"
+                        android:padding="@dimen/_11sdp"/>
+
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/seperate_line1"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray"/>
+
+                <LinearLayout
+                    android:id="@+id/tpp_ll_food_storage_boxes"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="6"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="match_parent"
+                            android:scaleType="fitCenter"
+                            android:padding="@dimen/_3sdp"
+                            android:src="@drawable/tp_food_storage_boxes"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="2"
+                            android:layout_height="match_parent"
+                            android:paddingTop="3dp"
+                            android:paddingLeft="@dimen/font_textview"
+                            android:text="@string/tp_txt_food_store_boxes"
+                            android:gravity="left|center"
+                            android:textColor="@android:color/holo_red_dark"
+                            android:textSize="@dimen/_18sdp"
+                            android:fontFamily="sans-serif-condensed"
+                            android:textStyle="bold|italic"/>
+                    </LinearLayout>
+
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/tp_arrow_right"
+                        android:padding="@dimen/_11sdp"/>
+
+                </LinearLayout>
+                <View
+                    android:id="@+id/seperate_line2"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray"/>
+
+                <LinearLayout
+                    android:id="@+id/tpp_ll_foodpan_sheetpan"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="6"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="match_parent"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/tp_pan_sheet"/>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="2"
+                            android:layout_height="match_parent"
+                            android:paddingTop="3dp"
+                            android:paddingLeft="@dimen/font_textview"
+                            android:text="@string/tp_txt_pan_sheetpan"
+                            android:gravity="left|center"
+                            android:textColor="@android:color/holo_red_dark"
+                            android:textSize="@dimen/_18sdp"
+                            android:fontFamily="sans-serif-condensed"
+                            android:textStyle="bold|italic"/>
+                    </LinearLayout>
+
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/tp_arrow_right"
+                        android:padding="@dimen/_11sdp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

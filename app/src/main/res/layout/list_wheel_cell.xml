@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:orientation="horizontal"
+    android:padding="5dp">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <ImageView
+        android:id="@+id/lst_iv_fruit"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:scaleType="fitCenter" />
+
+    <TextView
+        android:id="@+id/lst_txt_fruit"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="@dimen/font_textview"
+        android:text="Watermelon"
+        android:textColor="@color/black"
+        android:textSize="@dimen/font_title"
+        android:ellipsize="end"
+        android:singleLine="true">
+
+    </TextView>
+
+</LinearLayout>

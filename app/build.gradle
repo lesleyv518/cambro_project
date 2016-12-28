@@ -1,0 +1,52 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.0"
+
+    defaultConfig {
+        applicationId "com.cambro.app"
+        minSdkVersion 16
+        targetSdkVersion 23
+        versionCode 8
+        versionName "1.08"
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:23.0.1'
+    compile "com.github.danielnilsson9:color-picker-view:1.4.0@aar"
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile('com.facebook.android:facebook-android-sdk:4.5.0') {
+        exclude module: 'bolts-android'
+        exclude module: 'support-v4'
+    }
+//    compile('com.twitter.sdk.android:twitter:1.12.0@aar') {
+//        transitive = true;
+//    }
+    compile('com.stanfy:gson-xml-java:0.1.+') {
+        exclude group: 'xmlpull', module: 'xmlpull'
+    }
+    compile 'com.commit451:PhotoView:1.2.4'
+    compile 'com.parse:parsefacebookutils-v4-android:1.10.4@aar'
+    compile 'com.intuit.sdp:sdp-android:1.0.2'
+    compile 'me.relex:circleindicator:1.1.8@aar'
+//    compile('com.twitter.sdk.android:twitter:1.12.0@aar') {
+//        transitive = true
+//    }
+}

@@ -1,0 +1,130 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_120sdp"
+            android:layout_weight="1"
+            android:visibility="visible">
+
+            <ImageView
+                android:id="@+id/fs_ll_fsm"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/_8sdp"
+                android:src="@drawable/home_foodsafety"
+                android:scaleType="fitCenter">
+
+            </ImageView>
+            <ImageView
+                android:id="@+id/db_iv_camrack"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/_8sdp"
+                android:src="@drawable/home_camrack_selector"
+                android:scaleType="fitCenter">
+
+            </ImageView>
+            <!--<ImageView-->
+                <!--android:id="@+id/db_iv_np"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_weight="1"-->
+                <!--android:layout_margin="@dimen/_8sdp"-->
+                <!--android:src="@drawable/home_icon_new_products"-->
+                <!--android:scaleType="fitCenter">-->
+
+            <!--</ImageView>-->
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_120sdp"
+            android:layout_weight="1"
+            android:visibility="visible">
+
+            <ImageView
+                android:id="@+id/db_iv_video"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/_8sdp"
+                android:src="@drawable/home_assembly_videos"
+                android:scaleType="fitCenter">
+
+            </ImageView>
+            <ImageView
+                android:id="@+id/db_iv_cambro_care"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/_8sdp"
+                android:src="@drawable/home_cambro_cares"
+                android:scaleType="fitCenter">
+
+            </ImageView>
+            <!--<ImageView-->
+                <!--android:id="@+id/db_iv_social"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_weight="1"-->
+                <!--android:layout_margin="@dimen/_8sdp"-->
+                <!--android:src="@drawable/home_icon_twitter"-->
+                <!--android:scaleType="fitCenter">-->
+
+            <!--</ImageView>-->
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_120sdp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/db_iv_social"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/_8sdp"
+                android:src="@drawable/home_get_social"
+                android:scaleType="fitCenter">
+
+            </ImageView>
+            <ImageView
+                android:id="@+id/db_iv_healthcare"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/_8sdp"
+                android:src="@drawable/home_healthcare"
+                android:scaleType="fitCenter">
+
+            </ImageView>
+            <!--<ImageView-->
+                <!--android:id="@+id/db_iv_fitfactory"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_weight="1"-->
+                <!--android:layout_margin="@dimen/_8sdp"-->
+                <!--android:src="@drawable/home_icon_fitfactory"-->
+                <!--android:scaleType="fitCenter">-->
+
+            <!--</ImageView>-->
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

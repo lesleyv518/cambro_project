@@ -1,0 +1,257 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="@dimen/_10sdp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/pslp_ll_userinfo"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="8"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_20sdp"/>
+
+                <ImageView
+                    android:id="@+id/tpq_iv_prd"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/tp_prd_1000lcd110"/>
+
+                <TextView
+                    android:id="@+id/tpq_txt_prdcode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="@dimen/font_textview"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/font_textview"
+                    android:text="UPC600"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textSize="@dimen/_25sdp" />
+
+                <TextView
+                    android:id="@+id/tpq_txt_prd_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:layout_marginLeft="@dimen/_30sdp"
+                    android:layout_marginRight="@dimen/_30sdp"
+                    android:text="@string/ca_fn"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/_15sdp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_15sdp"/>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="@dimen/font_textview"
+                android:text="@string/cr_txt_name"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="@dimen/_15sdp" />
+
+            <EditText
+                android:id="@+id/tpq_edt_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="left|center_vertical"
+                android:hint="@string/ps_edt_efulln"
+                android:textColor="@android:color/black"
+                android:paddingLeft="@dimen/font_textview"
+                android:textSize="@dimen/_15sdp"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:background="@drawable/text_bg"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_10sdp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="@dimen/font_textview"
+                android:text="@string/cr_txt_email"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="@dimen/_15sdp" />
+
+            <EditText
+                android:id="@+id/tpq_edt_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="left|center_vertical"
+                android:hint="Enter Email Address"
+                android:textColor="@android:color/black"
+                android:paddingLeft="@dimen/font_textview"
+                android:textSize="@dimen/_15sdp"
+                android:imeOptions="actionNext"
+                android:inputType="textEmailAddress"
+                android:background="@drawable/text_bg"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_10sdp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="@dimen/font_textview"
+                android:text="@string/cr_txt_phone"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="@dimen/_15sdp" />
+
+            <EditText
+                android:id="@+id/tpq_edt_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="left|center_vertical"
+                android:hint="Enter Phone Number"
+                android:textColor="@android:color/black"
+                android:paddingLeft="@dimen/font_textview"
+                android:textSize="@dimen/_15sdp"
+                android:imeOptions="actionNext"
+                android:inputType="phone"
+                android:background="@drawable/text_bg"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_10sdp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="@dimen/font_textview"
+                android:text="@string/cr_txt_postal"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="@dimen/_15sdp" />
+
+            <EditText
+                android:id="@+id/tpq_edt_postalcode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="left|center_vertical"
+                android:hint="Enter Postal Code"
+                android:textColor="@android:color/black"
+                android:paddingLeft="@dimen/font_textview"
+                android:textSize="@dimen/_15sdp"
+                android:imeOptions="actionNext"
+                android:inputType="numberDecimal"
+                android:background="@drawable/text_bg"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_10sdp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="@dimen/font_textview"
+                android:text="@string/cr_txt_country"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="@dimen/_15sdp" />
+
+            <EditText
+                android:id="@+id/tpq_edt_country"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="left|center_vertical"
+                android:hint="Enter Country"
+                android:textColor="@android:color/black"
+                android:paddingLeft="@dimen/font_textview"
+                android:textSize="@dimen/_15sdp"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:background="@drawable/text_bg"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_10sdp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="@dimen/font_textview"
+                android:text="@string/ff_txt_quantity"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="@dimen/_15sdp" />
+
+            <EditText
+                android:id="@+id/tpq_edt_quantity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="left|center_vertical"
+                android:hint="Enter Quantity"
+                android:textColor="@android:color/black"
+                android:paddingLeft="@dimen/font_textview"
+                android:textSize="@dimen/_15sdp"
+                android:imeOptions="actionDone"
+                android:inputType="number"
+                android:background="@drawable/text_bg"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_10sdp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tpq_txt_gp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/submit"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_title"
+            android:fontFamily="sans-serif-condensed"
+            android:textStyle="bold"
+            android:background="@drawable/ps_red_button">
+
+        </TextView>
+
+    </LinearLayout>
+
+
+
+</ScrollView>

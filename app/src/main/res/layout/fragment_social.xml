@@ -1,0 +1,245 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/gs_iv_back"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/font_textview"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@drawable/back_arrow">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="10"
+            android:gravity="center"
+            android:text="@string/gs_title"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="@dimen/font_title"
+            android:fontFamily="sans-serif-condensed">
+
+        </TextView>
+
+        <ImageView
+            android:id="@+id/gs_iv_loc"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="7dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:src="@drawable/location_pin">
+
+        </ImageView>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2">
+            <ImageView
+                android:id="@+id/gs_iv_fb"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="6"
+                android:scaleType="fitCenter"
+                android:padding="@dimen/activity_horizontal_margin"
+                android:src="@drawable/social_icon_facebook" />
+
+            <ImageView
+                android:id="@+id/gs_iv_fb1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="@dimen/activity_horizontal_margin"
+                android:src="@drawable/social_symbol_expand_facebook" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/color_facebook"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2">
+            <ImageView
+                android:id="@+id/gs_iv_tw"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="6"
+                android:scaleType="fitCenter"
+                android:padding="@dimen/activity_horizontal_margin"
+                android:src="@drawable/social_icon_twitter" />
+
+            <ImageView
+                android:id="@+id/gs_iv_tw1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="@dimen/activity_horizontal_margin"
+                android:src="@drawable/social_symbol_expand_twitter" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/color_twitte"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2">
+            <ImageView
+                android:id="@+id/gs_iv_yt"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="6"
+                android:scaleType="fitCenter"
+                android:padding="@dimen/activity_horizontal_margin"
+                android:src="@drawable/social_icon_youtube" />
+
+            <ImageView
+                android:id="@+id/gs_iv_yt1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="@dimen/activity_horizontal_margin"
+                android:src="@drawable/social_symbol_expand_youtube" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/color_youtube"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2">
+            <ImageView
+                android:id="@+id/gs_iv_lk"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="6"
+                android:scaleType="fitCenter"
+                android:padding="@dimen/activity_horizontal_margin"
+                android:src="@drawable/social_icon_linkedin" />
+
+            <ImageView
+                android:id="@+id/gs_iv_lk1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="@dimen/activity_horizontal_margin"
+                android:src="@drawable/social_symbol_expand_linkedin" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/color_linkedin"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2">
+            <ImageView
+                android:id="@+id/gs_iv_pt"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="6"
+                android:scaleType="fitCenter"
+                android:padding="@dimen/activity_horizontal_margin"
+                android:src="@drawable/social_icon_pinterest" />
+
+            <ImageView
+                android:id="@+id/gs_iv_pt1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="@dimen/activity_horizontal_margin"
+                android:src="@drawable/social_symbol_expand_pinterest" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/color_pinterest"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2">
+            <ImageView
+                android:id="@+id/gs_iv_in"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="6"
+                android:scaleType="fitCenter"
+                android:padding="@dimen/activity_horizontal_margin"
+                android:src="@drawable/social_icon_instagram" />
+
+            <ImageView
+                android:id="@+id/gs_iv_in1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="@dimen/activity_horizontal_margin"
+                android:src="@drawable/social_symbol_expand_instagram" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/color_instagram"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2">
+            <ImageView
+                android:id="@+id/gs_iv_gg"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="6"
+                android:scaleType="fitCenter"
+                android:padding="@dimen/activity_horizontal_margin"
+                android:src="@drawable/social_icon_google" />
+
+            <ImageView
+                android:id="@+id/gs_iv_gg1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="@dimen/activity_horizontal_margin"
+                android:src="@drawable/social_symbol_expand_google" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

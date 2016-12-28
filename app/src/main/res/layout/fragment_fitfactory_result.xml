@@ -1,0 +1,267 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/ffr_iv_back"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:scaleType="fitCenter"
+            android:src="@drawable/back_arrow">
+
+        </ImageView>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+        </View>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="10"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:text="@string/ff_txt_title"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="@dimen/font_title">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/ffr_txt_startover"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="7dp"
+            android:text="Start Over"
+            android:gravity="right|center_vertical"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="@dimen/font_textview1">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="7"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2.6"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/ffr_ll_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@color/color_bk_thumbler">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="6">
+
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5" />
+
+                        <ImageView
+                            android:id="@+id/ffr_iv_icon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:paddingBottom="@dimen/font_textview"
+                            android:paddingTop="@dimen/font_textview"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/tumbler_icon" />
+
+                        <TextView
+                            android:id="@+id/ffr_txt_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:fontFamily="sans-serif-condensed"
+                            android:gravity="left|center"
+                            android:text="@string/ff_txt_thumbler"
+                            android:textColor="@android:color/black"
+                            android:textSize="@dimen/font_medium" />
+
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/color_bk_tumbler_gray"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:padding="@dimen/font_small"
+                    android:text="@string/ff_txt_ys"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/font_textview1" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2.5">
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.3" />
+
+                    <ImageView
+                        android:id="@+id/ffr_iv_fit"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.5"
+                        android:src="@drawable/fitfactory_rfs4pp" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:layout_marginLeft="@dimen/font_textview"
+                        android:layout_marginRight="@dimen/font_textview"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/ffr_txt_prdcription"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="sans-serif-condensed"
+                            android:gravity="left|bottom"
+                            android:paddingTop="3dp"
+                            android:text="Colorware"
+                            android:textColor="@android:color/black"
+                            android:textSize="@dimen/font_medium" />
+
+                        <TextView
+                            android:id="@+id/ffr_txt_size"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif-condensed"
+                            android:gravity="left|bottom"
+                            android:textColor="@android:color/black"
+                            android:textSize="@dimen/font_textview1"
+                            android:visibility="gone"/>
+
+                        <TextView
+                            android:id="@+id/ffr_txt_ml"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="sans-serif-condensed"
+                            android:gravity="left"
+                            android:paddingTop="3dp"
+                            android:text="290ML"
+                            android:textColor="@android:color/holo_red_dark"
+                            android:textSize="@dimen/font_medium" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2.5">
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.3" />
+
+                    <ImageView
+                        android:id="@+id/ffr_iv_lid"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.5" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:layout_marginLeft="@dimen/font_textview"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/ffr_txt_lidcode"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="sans-serif-condensed"
+                            android:gravity="left|bottom"
+                            android:paddingTop="3dp"
+                            android:textColor="@android:color/black"
+                            android:textSize="@dimen/font_medium" />
+
+                        <TextView
+                            android:id="@+id/ffr_txt_lidname"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:fontFamily="sans-serif-condensed"
+                            android:gravity="left"
+                            android:paddingTop="3dp"
+                            android:textColor="@android:color/holo_red_dark"
+                            android:textSize="@dimen/font_medium" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:id="@+id/ffr_txt_gaqs"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/fitfactory_quote"
+                    android:visibility="visible">
+
+
+                </TextView>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

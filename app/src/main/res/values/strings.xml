@@ -1,0 +1,321 @@
+<resources>
+    <string name="app_name">Cambro</string>
+    <string name="facebook_app_id">1494146720878047</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="blog_temp">&amp; Tips to Help Nutrients During Strange</string>
+    <string name="go_to_blog">Go to Blog Post &gt;&gt;</string>
+    <string name="healthcare_title_explain">Find out below how much you can save by swittching to Cambro!</string>
+    <string name="title_healthcare">HEALTHCARE</string>
+    <string name="title_reusable_camlids">REUSABLE CAMLIDS</string>
+    <string name="findrep">Find A Rep</string>
+    <string name="fb">Facebook</string>
+    <string name="tw">Twitter</string>
+    <string name="account">Account</string>
+    <string name="login">Login</string>
+    <string name="create">Create</string>
+    <string name="and"> &amp; </string>
+    <string name="view">View</string>
+    <string name="signout">Sign Out</string>
+    <string name="your_account">Your Account</string>
+    <string name="not">Not</string>
+    <string name="cancel">Cancel</string>
+    <string name="size">Size:</string>
+
+    <!-- Activity Camlids-->
+    <string name="txt_acpmp">Average Census Per Meal Period</string>
+    <string name="txt_dlupmp">Disposable Lids Used Per Meal Period</string>
+    <string name="txt_clsm">CLSM8B5 or equivalent</string>
+    <string-array name="spn_clsm">
+        <item>None</item>
+        <item>8 oz mug lid OR 5 oz bowl lid</item>
+        <item>Both mug &amp; bowl lids</item>
+    </string-array>
+    <string name="txt_clsb">CLSB9 or equivalent</string>
+    <string-array name="spn_clsb">
+        <item>None</item>
+        <item>9 oz bowl lid</item>
+    </string-array>
+    <string name="txt_cpdlc">$ Cost Per Disposable Lid Case</string>
+    <string name="txt_dclua">Disposable CLSM885 Lids Used Annually</string>
+    <string name="txt_dcblua">Disposable CLSB9 Lids Used Annually</string>
+    <string name="txt_tadc">Total Annual Disposal Cost</string>
+    <string name="txt_irco">Initial Reusable Camlids Order</string>
+    <string name="txt_ceilb">(Camlids estimate is 2x licesensed beds)</string>
+    <string name="txt_ceilb1">Camlids estimate is 2x licesensed beds.</string>
+    <string name="txt_ccdsiiuobam">CLRM8B5 count doubled since it is used on bowl and mug.</string>
+    <string name="txt_clrm8b5">CLRM8B5 Cases</string>
+    <string name="txt_clrb9">CLRB9 Cases</string>
+    <string name="txt_240cp">(240 Case Pack)</string>
+    <string name="txt_clrm_c_c">CLRM8B5 Cases Costs</string>
+    <string name="txt_clrsm_c_c">CLRSM8B5 Cases Costs</string>
+    <string name="txt_clrsb9_c_c">CLRSB9 Cases Costs</string>
+    <string name="txt_ccdsiu">CLRM8B5 count doubled since it is used on bowl and mug</string>
+    <string name="txt_cftico">Cost For Total Initial Case Order</string>
+    <string name="txt_mrc">Monthly Replacement Cost</string>
+    <string name="txt_mllr">Monthly Lid Loss Rate</string>
+    <string-array name="spn_mllr">
+        <item>0%</item>
+        <item>10%</item>
+        <item>20%</item>
+        <item>30%</item>
+        <item>40%</item>
+        <item>50%</item>
+        <item>60%</item>
+    </string-array>
+    <string name="txt_ytirco">Your Total Initial Reusable CamLid Order</string>
+    <string name="txt_cylcsdfe">Contact your local Cambro Stocking Distributor for exact pricing.</string>
+    <string name="txt_ytas">Your Total Annual Savings.</string>
+
+
+
+    <!-- Activity Non Skid-->
+    <string name="ns_txt_title">NON SKID TRAY CALCULATOR</string>
+    <string name="ns_txt_cpc">Cost Per Case</string>
+    <string name="ns_txt_mpc">Mats Per Case</string>
+    <string-array name="spn_mpc">
+        <item>1000</item>
+        <item>1500</item>
+    </string-array>
+    <string name="ns_txt_fi">Facility Information</string>
+    <string name="ns_txt_nolb">Number of Licensed Beds</string>
+    <string name="ns_txt_synsct">Select your Non-Skid Camtray</string>
+    <string-array name="spn_synsc">
+        <item>1418 Non-Skid Versa Camtray: 14"x18"</item>
+        <item>1520 Non-Skid Versa Camtray: 15"x20"</item>
+    </string-array>
+    <string name="ns_txt_sycc">Select your Color Combination</string>
+    <string-array name="spn_sycc">
+        <item>Ivory with Sahara</item>
+        <item>Black with Pebbled Black</item>
+        <item>Pearl Gray with Titan</item>
+    </string-array>
+    <string name="ns_txt_tcfnsto">Total Cost for Non-Skid Tray Order</string>
+    <string name="ns_txt_tsbstnst">Total Saving By Switching To Non-Skid Trays</string>
+    <string name="ns_txt_ts">TOTAL SAVINGS</string>
+    <string name="ns_txt_savings">SAVINGS</string>
+
+    <!-- Activity Trivia-->
+    <string name="tr_txt_title">TRIVIA</string>
+    <string name="tr_txt_subject">Foodborne illness affects Americans every year according to CDC.</string>
+    <string name="tr_txt_million">Million</string>
+    <string name="tr_txt_submit_answer">Submit Answer</string>
+    <string name="tr_txt_rule">Rules</string>
+    <string name="tr_txt_home">HOME</string>
+    <string name="tr_txt_login_title">TRIVIA CHALLENGE!</string>
+    <string name="tr_txt_login_subject">Login with a Social Profile or Register to submit your entry into the Weekly Cambro Trivia Contest!</string>
+    <string name="tr_txt_thanks">Thanks for entering this week\'s Trivia Challenge!</string>
+    <string name="tr_txt_hints">Hints for next week\'s question provided on</string>
+    <string name="tr_info_psa">Please select answer.</string>
+
+    <!-- Activity Camrack-->
+    <string name="cr_txt_title">CAMRACK SELECTOR</string>
+    <string name="cr_txt_aap">Add another product</string>
+    <string name="cr_txt_stp1">Step 1: CHOOSE YOUR PRODUCT</string>
+    <string name="cr_txt_stp2">Step 2: CHOOSE THE SIZE</string>
+    <string name="cr_txt_uom">Unit of Measure</string>
+    <string-array name="spn_uom">
+        <item>Inches (IN)</item>
+        <item>Centimeters (CM)</item>
+    </string-array>
+    <string name="centimeter">Centimeters</string>
+    <string name="inche">Inches</string>
+    <string name="cr_txt_md">Maximum Diameter:</string>
+    <string name="cr_txt_wpoi">(Widest point on item)</string>
+    <string name="cr_txt_mh">Maximum Height:</string>
+    <string name="cr_txt_stp3">Step 3: CHOOSE THE QUANTITY</string>
+    <string name="cr_txt_qoi">Quantity of Items:</string>
+    <string name="cr_txt_fmc">Find My Camrack@</string>
+    <string name="cr_txt_name">Name:</string>
+    <string name="cr_txt_email">Email:</string>
+    <string name="cr_txt_phone">Phone:</string>
+    <string name="cr_txt_postal">Postal Code:</string>
+    <string name="cr_txt_country">Country:</string>
+    <string name="cr_txt_send_quote">Send Quote</string>
+    <string name="cr_txt_prdadd">The Camrack for you</string>
+    <string name="cr_txt_notfoundprd">For the right Camrack® for the size selected, please contact your Cambro Sales Representative or Cambro Customer Service.</string>
+    <string name="cr_txt_peah">Please enter a HEIGHT</string>
+    <string name="cr_txt_pead">Please enter a DIAMETER</string>
+    <string name="cr_txt_peaq">Please enter a QUANTITY</string>
+
+    <!-- Activity Menu-->
+    <string name="mnu_cc">Contact Cambro</string>
+    <string name="mnu_wc">webmaster@cambro.com</string>
+    <string name="mnu_fq">Feedback / Questions?</string>
+    <string name="mnu_cw">Cambro Website</string>
+    <string name="mnu_cb_">Cambro Blog</string>
+    <string name="dlg_open_blog">Open "Cambro.com" in browser?</string>
+    <string name="dlg_open_FB">"Cambro" wants to open "Facebook".</string>
+    <string name="dlg_open_tw">"Cambro" wants to open "Twitter".</string>
+    <string name="open">Open</string>
+
+    <!-- Activity Signin-->
+    <string name="si_title">SIGN IN</string>
+    <string name="si_email">Email</string>
+    <string name="si_password">Password</string>
+    <string name="si_fp">Forgot Password?</string>
+    <string name="si_fp1">Forgot Password</string>
+    <string name="si_signin">Sign In</string>
+    <string name="si_eye">Enter Your Email</string>
+    <string name="si_smmp">Send Me My Password</string>
+
+    <!-- Activity Edit your account-->
+    <string name="ey_title">EDIT YOUR ACCOUNT</string>
+    <string name="ey_txt_ce">Change Email</string>
+    <string name="ey_txt_save">Save</string>
+
+    <!-- Activity Create Account-->
+    <string name="ca_title">CREATE AN ACCOUNT</string>
+    <string name="ca_fn">First Name</string>
+    <string name="ca_ln">Last Name</string>
+    <string name="ca_cp">Confirm Password</string>
+    <string name="ca_ca">Create Account</string>
+
+    <!-- Activity Get Social-->
+    <string name="gs_title">GET SOCIAL</string>
+
+    <!-- Activity FresFit-->
+    <string name="frs_txt_sr">STORAGE RECOMMENDATION:</string>
+    <string name="frs_txt_safovb">Select a Fruit or Vegetable below</string>
+    <string name="frs_txt_fruits">FRUITS</string>
+    <string name="frs_txt_veg">VEGETABLES</string>
+    <string name="frs_txt_done">Done</string>
+    <string name="frs_txt_it">IDEAL TEMPERATURE</string>
+    <string name="frs_txt_rh">RELATIVE HUMIDITY</string>
+    <string name="frs_txt_ssc">SUGGESTED STORAGE CONTAINERS</string>
+    <string name="frs_txt_sm">See More</string>
+    <string name="frs_txt_st">STORING TIPS</string>
+    <string name="frs_txt_degree">&#xb0;</string>
+
+    <!-- Activity FitFactory-->
+    <string name="ff_txt_title">FIT FACTORY</string>
+    <string name="ff_txt_title_lid">FIT YOUR LID</string>
+    <string name="ff_txt_thumbler">Tumblers</string>
+    <string name="ff_txt_pans">Pans</string>
+    <string name="ff_txt_storage">Storage</string>
+    <string name="ff_txt_healthcare">Healthcare</string>
+    <string name="ff_txt_capacity">Capacity:</string>
+    <string name="ff_txt_family">Family:</string>
+    <string name="ff_txt_tytb">Tap Your Tumbler Below</string>
+    <string name="ff_txt_typb">Tap Your Pan Below</string>
+    <string name="ff_txt_typ">Tap Your Product</string>
+    <string name="ff_txt_ltf">Lids That Fit</string>
+    <string name="ff_txt_stl">Select This Lid</string>
+    <string name="ff_txt_ys">Your Selections</string>
+    <string name="ff_txt_gaqs">Get a Quote &amp; Sample</string>
+    <string name="ff_txt_address">Address:</string>
+    <string name="ff_txt_quantity">Quantity:</string>
+    <string name="ff_txt_hacsr">Have a Cambro sales rep deliver a sample to my place of business.</string>
+    <string name="ff_txt_tfp">Translucent Food Pans</string>
+    <string name="ff_txt_cp">Camwear\u00AE Pans</string>
+    <string name="ff_txt_hhfp">High Heat Food Pans</string>
+    <string name="ff_txt_saf">Select a Family</string>
+    <string name="ff_txt_csr">CamSquares\u00AE</string>
+    <string name="ff_txt_csrr">Camwear\u00AE Rounds</string>
+    <string name="ff_txt_srt">\u00AE</string>
+    <string name="ff_txt_sub_12">\u00BD</string>
+    <string name="ff_txt_sub_34">\u00BE</string>
+    <string name="ff_txt_sub_14">\u00BC</string>
+    <string name="ff_txt_th">Thank you!</string>
+    <string name="ff_txt_wwcys">We will contact you shortly.</string>
+    <string name="ff_txt_fal">Fit Another Lid</string>
+    <string name="ff_txt_gh">Go Home</string>
+
+    <string name="ff_txt_piyn">Please Input Your Name.</string>
+    <string name="ff_txt_piyea">Please Input Your Email Address.</string>
+    <string name="ff_txt_piypn">Please Input Your Phone Number.</string>
+    <string name="ff_txt_piya">Please Input Your Address.</string>
+    <string name="ff_txt_piq">Please Input Quantity.</string>
+    <string name="ff_txt_picea">Please Input Correct Email Address.</string>
+
+    <!-- Fragment Food Safety-->
+    <string name="fs_txt_title">FOOD SAFETY</string>
+    <string name="fs_txt_fc">Freshness Contained</string>
+    <string name="fs_txt_fsm">Food Safety Matters</string>
+
+    <!-- Activity Videos-->
+    <string name="vd_title">VIDEOS</string>
+    <string name="mnu">menu</string>
+    <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
+
+    <!-- Activity Persnalize-->
+    <string name="ps_round_tray">ROUND TRAY</string>
+    <string name="ps_rect_tray">RECTANGULAR TRAY</string>
+    <string name="ps_trap_tray">TRAPEZOID TRAY</string>
+    <string name="ps_txt_wwcys">A Cambro Representative will contact you shortly.</string>
+    <string name="ps_ps_a_tray">PERSNALIZE A TRAY</string>
+    <string name="ps_prd_pitcher">PITCHER</string>
+    <string name="ps_prd_pitchers">PITCHERS</string>
+    <string name="ps_prd_barware">BARWARE</string>
+    <string name="ps_prd_coldfest">COLDFEST</string>
+    <string name="ps_cambro_product">CAMBRO PRODUCT</string>
+    <string name="ps_color">Color</string>
+    <string name="ps_add_logo">Add a Logo</string>
+    <string name="ps_txt_next">Next</string>
+    <string name="ps_get_pricing">Get Pricing</string>
+    <string name="ps_get_ayi">ADJUST YOUR IMAGE</string>
+    <string name="ps_share_prd">SHARE YOUR CUSTOM PRODUCT</string>
+    <string name="new_message">New Message</string>
+    <string name="send">Send</string>
+    <string name="submit">Submit</string>
+    <string name="ps_txt_wnyi">WE NEED YOUR INFO</string>
+    <string name="ps_edt_efn">Enter First Name</string>
+    <string name="ps_edt_efulln">Enter Full Name</string>
+    <string name="ps_edt_eln">Enter Last Name</string>
+    <string name="ps_edt_tye">Type Your Email</string>
+    <string name="ps_txt_etcs">EUROPEAN TRAYS COMMING SOON</string>
+    <string name="ps_txt_eomyi">Enlarge or Move your image</string>
+    <string name="ps_txt_lg">Looking Good!</string>
+    <string name="ps_prd_ayi">ADJUST YOUR IMAGE</string>
+    <string name="ps_sel_color">Select Color</string>
+    <string name="ps_txt_get_pricing">GET PRICING</string>
+    <string name="ps_txt_look_good">LOOKING GOOD!</string>
+    <string name="ps_txt_logo_color">LOGO COLOR</string>
+    <string name="ps_txt_sycp">SHARE YOUR CUSTOM PRODUCT!</string>
+    <string name="ps_txt_yct">YOUR CUSTOM TRAY</string>
+    <string name="ps_txt_syd">Share Your Design</string>
+    <string name="ps_txt_fqfyd">FREE QUOTE FOR YOUR DESIGN</string>
+    <string name="ps_tray_size">Tray Size:</string>
+    <string name="ps_tray_count">Add quantity:</string>
+    <string name="ps_edt_ttc">Type Quantity</string>
+    <string name="sendmail_explain">I customized a product using the Cambro app.\n Download it at: www.cmbro.com/app</string>
+
+    <!-- Activity Transport Tool-->
+    <string name="tp_txt_title">BUILD-A-TRANSPORTER</string>
+    <string name="tp_txt_food">FOOD</string>
+    <string name="tp_txt_beverage">BEVERAGES</string>
+    <string name="tp_txt_electric">ELECTRIC</string>
+    <string name="tp_txt_non_electric">NON-ELECTRIC</string>
+    <string name="tp_txt_single_pan">A SINGLE PAN</string>
+    <string name="tp_txt_pan_sheetpan">PANS &amp; SHEET PANS</string>
+    <string name="tp_txt_foodpan_sheetpan_db">Pans &amp; Sheet Pans</string>
+    <string name="tp_txt_food_store_boxes">FOOD STORAGE BOXES</string>
+    <string name="tp_txt_food_store_boxes_db">Food Storage Boxes</string>
+    <string name="tp_txt_multiple_pan">MULTIPLE PANS</string>
+    <string name="tp_txt_sheet_pan">SHEET PANS</string>
+    <string name="tp_txt_tfp">TRANSPORTING FOOD</string>
+    <string name="tp_txt_trans_beverage">TRANSPORTING BEVERAGES</string>
+    <string name="tp_txt_need_transport">I NEED TO\n TRANSPORT...</string>
+    <string name="tp_txt_tpiuau">I CARRY THEM IN…</string>
+    <string name="tp_txt_lt4">LESS THAN 4\u0022 DEEP</string>
+    <string name="tp_txt_dp6">DEEPER THAN 6\u0022</string>
+    <string name="tp_txt_next_step">NEST STEP</string>
+    <string name="tp_txt_we_recommend">WE RECOMMEND</string>
+    <string name="tp_txt_15">1.5 TO 2.5 GALLONS</string>
+    <string name="tp_txt_375">3.75 TO 5.25 GALLONS</string>
+    <string name="tp_txt_10">10+ GALLONS</string>
+    <string name="tp_txt_tciat">THE CAPACITY I AM TRANSPORTING IS...</string>
+    <string name="tp_txt_mpsp">Sheet Pans</string>
+    <string name="tp_txt_mp">Multiple Pans</string>
+    <string name="tp_txt_sfp">Single Food Pan</string>
+    <string name="tp_txt_gafq">GET A FREE QUOTE</string>
+    <string name="tp_edt_eye">Enter Your Email</string>
+
+    <string name="tp_txt_small_carriers">Small Carriers</string>
+    <string name="tp_txt_larger_cart">Larger Cart</string>
+    <string name="tp_txt_larger_carts">Larger Carts</string>
+    <string name="tp_txt_small_carriers_cart">Small Carriers-Carts</string>
+    <string name="tp_txt_small_cart">Small Cart</string>
+
+</resources>

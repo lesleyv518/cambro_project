@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ffr_lst_ll"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_80sdp">
+
+    <LinearLayout
+        android:id="@+id/lst_ll_tp"
+        android:layout_width="0dp"
+        android:layout_weight="6"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/lst_iv_tp_prd"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/_7sdp"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/fitfactory_12183cw"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lst_txt_tp_prdcode"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:paddingTop="@dimen/_5sdp"
+                android:paddingLeft="@dimen/_5sdp"
+                android:text="UPC160"
+                android:gravity="left|center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="@dimen/_15sdp"
+                android:fontFamily="sans-serif-condensed"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/lst_txt_tp_prd"
+                android:layout_width="match_parent"
+                android:layout_weight="2"
+                android:layout_height="0dp"
+                android:paddingLeft="@dimen/_5sdp"
+                android:text="description"
+                android:gravity="left|center"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/_10sdp"
+                android:fontFamily="sans-serif-condensed"
+                android:textStyle="normal"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:src="@drawable/tp_arrow_right"
+        android:padding="@dimen/_10sdp"/>
+
+</LinearLayout>
